@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>圣诞主题</title>
+    <link rel="stylesheet" href="common.css"/>
+    <link rel="stylesheet" href="pageA.css"/>
+    <link rel="stylesheet" href="pageB.css"/>
+    <link rel="stylesheet" href="pageC.css"/>
+</head>
+<body>
+
+<section class="container">
+    <!-- 第一幅画 -->
+    <section class="page-a bg-adaptive">
+        <!--月亮-->
+        <figure class="moon"></figure>
+        <!--圣诞树-->
+        <figure class="tree"></figure>
+        <!--云-->
+        <figure class="cloudy"></figure>
+        <!-- 男孩 -->
+        <div class="chs-boy chs-boy-deer"></div>
+        <!-- 窗户 -->
+        <div class="window wood">
+            <div class="window-bg"></div>
+            <div class="window-content">
+                <div class="window-left"></div>
+                <div class="window-right"></div>
+            </div>
+        </div>
+    </section>
+    <!-- 第二幅画 -->
+    <section class="page-b bg-adaptive">
+        <!-- 圣诞男孩 -->
+        <figure class="christmas-boy-head"></figure>
+        <figure class="christmas-boy boy-walk"></figure>
+        <!-- 小女孩 -->
+        <figure class="girl"></figure>
+        <!-- 猫 -->
+        <figure class="cat"></figure>
+        <!-- 旋转木马 -->
+        <div id="carousel">
+            <figure id="spinner" class="fadeIn"></figure>
+        </div>
+    </section>
+    <!-- 第三幅画 -->
+    <section class="page-c bg-adaptive">
+        <!-- 窗户关闭 -->
+        <div class="window wood">
+            <div class="window-content" data-attr="red">
+                <div class="window-scene-bg"></div>
+                <div class="window-close-bg"></div>
+                <div class="window-left hover"></div>
+                <div class="window-right hover"></div>
+            </div>
+        </div>
+        <!-- 雪花 -->
+        <canvas id="snowflake"></canvas>
+    </section>
+</section>
+
+<button class="music-start">点击播放音乐</button>
+<button class="music-loop">点击播放循环音乐</button>
+<button class="chs-start">点击运行雪橇动作</button>
+<button class="open-window">点击开窗户</button>
+<button class="christmas-boy-run">点击圣诞男孩start running</button>
+<button class="christmas-girl-run">点击圣诞女孩start running</button>
+<button class="carousel-run">点击开始旋转</button>
+<button class="carousel-3d">3d旋转视频</button>
+<button class="close-window">关闭窗户</button>
+
+<script src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
+<script src="autoLayout.js"></script>
+<script type="text/javascript" src="http://img.mukewang.com/down/55ac9ea30001ace700000000.js"></script>
+<script src="snowflake.js"></script>
+<script src="observer.js"></script>
+<script src="pageA.js"></script>
+<script src="carousel.js"></script>
+<script src="pageB.js"></script>
+<script src="pageC.js"></script>
+<script src="christmas.js"></script>
+<script type="text/babel" src="index.js"></script>
+</body>
+</html>

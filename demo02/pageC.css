@@ -1,0 +1,36 @@
+/*背景图*/
+.content-wrap > li:nth-child(3) {
+  /* 小女孩 */
+}
+.content-wrap > li:nth-child(3) .c-background {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  position: absolute;
+}
+.content-wrap > li:nth-child(3) .c-background .c-background-top {
+  width: 100%;
+  height: 71.6%;
+  background-image: url("http://img.mukewang.com/55ade19b0001d92c14410645.png");
+  background-size: 100% 100%;
+}
+.content-wrap > li:nth-child(3) .c-background .c-background-middle {
+  width: 100%;
+  height: 13.1%;
+  background-image: url("http://img.mukewang.com/55ade1b3000135c114410118.png");
+  background-size: 100% 100%;
+}
+.content-wrap > li:nth-child(3) .c-background .c-background-botton {
+  width: 100%;
+  height: 15.3%;
+  background-image: url("http://img.mukewang.com/55ade1c30001db5d14410138.png");
+  background-size: 100% 100%;
+}
+.content-wrap > li:nth-child(3) .girl {
+  position: absolute;
+  right: 40%;
+  top: 37%;
+  width: 151px;
+  height: 291px;
+  background: url(http://img.mukewang.com/55ade30d000100dc10570291.png) -755px 0px no-repeat;
+}

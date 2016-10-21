@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>七夕主题</title>
+    <link rel="stylesheet" href="common.css"/>
+    <link rel="stylesheet" href="pageA.css"/>
+    <link rel="stylesheet" href="pageB.css"/>
+    <link rel="stylesheet" href="pageC.css"/>
+</head>
+<body>
+<div id="content">
+    <button class="start">开门</button>
+    <button class="pause">关门</button>
+    <ul class="content-wrap">
+        <!-- 第一幅画面 -->
+        <li>
+            <div class="a-background">
+                <div class="a-background-top"></div>
+                <div class="a-background-middle"></div>
+                <div class="a-background-botton"></div>
+            </div>
+            <!-- 太阳 -->
+            <div id="sun"></div>
+            <!-- 云 -->
+            <div class="cloudArea">
+                <div class="cloud cloud1"></div>
+                <div class="cloud cloud2"></div>
+            </div>
+        </li>
+        <!-- 第二幅画面 -->
+        <li>
+            <!-- 背景 -->
+            <div class="b-background"></div>
+            <div class="b-background-preload"></div>
+            <!-- 商店 -->
+            <div class="shop">
+                <div class="door">
+                    <div class="door-left"></div>
+                    <div class="door-right"></div>
+                </div>
+                <!-- 灯 -->
+                <div class="lamp"></div>
+            </div>
+            <!-- 鸟 -->
+            <div class="bird"></div>
+        </li>
+        <!-- 第三幅画面 -->
+        <li>
+            <!-- 背景图 -->
+            <div class="c-background">
+                <div class="c-background-top"></div>
+                <div class="c-background-middle"></div>
+                <div class="c-background-botton"></div>
+            </div>
+            <!-- 小女孩 -->
+            <div class="girl"></div>
+            <!-- 水波 -->
+            <div class="bridge-bottom">
+                <div class="water">
+                    <div id="water1" class="water-1"></div>
+                    <div id="water2" class="water-2"></div>
+                    <div id="water3" class="water-3"></div>
+                    <div id="water4" class="water-4"></div>
+                </div>
+            </div>
+            <!-- 星星 -->
+            <ul class="stars">
+                <li class="stars1"></li>
+                <li class="stars2"></li>
+                <li class="stars3"></li>
+                <li class="stars4"></li>
+                <li class="stars5"></li>
+                <li class="stars6"></li>
+            </ul>
+        </li>
+    </ul>
+    <!-- 走路的小男孩 -->
+    <div id="boy" class="charector"></div>
+</div>
+<script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://img.mukewang.com/down/55ac9ea30001ace700000000.js"></script>
+<script src="autoLayout.js"></script>
+<script src="Swipe.js"></script>
+<script src="BoyWalk.js"></script>
+<script src="qixi.js"></script>
+</body>
+</html>
